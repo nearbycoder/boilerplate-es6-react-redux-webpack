@@ -1,4 +1,4 @@
-# Boilerplate Es6 React Redux Webpack
+# Boilerplate es6 React Redux Webpack
 
 This is a starter kit to get you working with es6 classes and modules within React using Redux and Webpack. The kit includes basic routing using [react-router](https://github.com/reactjs/react-router) and uses [redux-resource](https://github.com/jfairbank/redux-resource) for ajax requests via redux.
 
