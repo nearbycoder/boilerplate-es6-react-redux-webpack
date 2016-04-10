@@ -1,0 +1,56 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: white;
+}
+
+.header, .footer {
+  background-color: #292E39;
+  padding: 5px;
+  color: white;
+  ul {
+    margin: 0;
+    padding: 5px;
+    li {
+      padding: 0 10px;
+      display: inline;
+    }
+  }
+}
+
+.repoList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    padding: 2px;
+    font-size: 20px;
+    a {
+      color: black;
+    }
+  }
+}
+
+input[type=text] {
+  padding: 10px;
+  width: 200px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  margin: 0 auto;
+  width: 300px;
+}

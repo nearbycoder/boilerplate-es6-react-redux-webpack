@@ -1,0 +1,5 @@
+export const ADD_FRIEND = 'ADD_FRIEND';
+export const DELETE_FRIEND = 'DELETE_FRIEND';
+export const FETCH_REPOS = 'FETCH_REPOS';
+export const RECEIVE_REPOS = 'RECEIVE_REPOS';
+export const ERR_RECEIVE_REPOS = 'ERR_RECEIVE_REPOS';
