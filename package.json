@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-es6-react-redux-webpack",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
@@ -40,13 +40,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "lodash": "^4.9.0",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
-    "react-redux": "^4.4.2",
-    "react-router": "^2.0.1",
-    "redux": "^3.4.0",
+    "lodash": "^4.15.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.0",
+    "redux": "^3.6.0",
     "redux-resource": "^1.1.0",
-    "redux-thunk": "^2.0.1"
+    "redux-thunk": "^2.1.0"
   }
 }

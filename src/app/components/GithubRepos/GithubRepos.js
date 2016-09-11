@@ -19,8 +19,7 @@ export default class GithubRepos extends Component {
     return this.props.repos.map((repo) =>
       (
         <li
-          key={repo.id}
-          {...this.props.actions}><a target='_blank' href={repo.html_url}>{repo.name}</a></li>
+          key={repo.id}><a target='_blank' href={repo.html_url}>{repo.name}</a></li>
       )
     );
   }
